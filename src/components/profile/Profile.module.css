@@ -1,0 +1,32 @@
+p {
+  margin: 0;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #e9e9e9;
+}
+
+.userAvatar {
+  background-color: grey;
+  border-radius: 50%;
+  width: 250px;
+}
+
+.userName {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.userTag {
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.userLocation {
+  color: gray;
+}
