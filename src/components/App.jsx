@@ -3,10 +3,10 @@ import { Stats } from './stats/Stats.jsx';
 import { Statistics } from './statistics/Statistics.jsx';
 import { FriendList } from './friendList/FriendList.jsx';
 import { TransactionHistory } from './transactionHistory/TransactionHistory.jsx';
-import data from './json/data.json';
-import user from './json/user.json';
-import friends from './json/friends.json';
-import transactions from './json/transactions.json';
+import data from '../json/data.json';
+import user from '../json/user.json';
+import friends from '../json/friends.json';
+import transactions from '../json/transactions.json';
 
 export const App = () => {
   return (
@@ -23,11 +23,11 @@ export const App = () => {
     >
       <div
         className="profile"
-        style={{
-          width: '500px',
-          paddingBottom: '20px',
-          backgroundColor: '#a9a9a9',
-        }}
+        // style={{
+        //   width: '500px',
+        //   paddingBottom: '20px',
+        //   backgroundColor: '#a9a9a9',
+        // }}
       >
         <Profile
           key={user.tag}

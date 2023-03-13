@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { getRandomHexColor } from '../utils/getRandomColor';
 
 export const Section = styled.section`
   display: flex;
@@ -21,4 +22,9 @@ export const List = styled.ul`
 
 export const Head = styled.h2`
   margin: auto;
+`;
+
+export const Listing = styled.li`
+  background-color: ${getRandomHexColor};
+  width: 70px;
 `;
